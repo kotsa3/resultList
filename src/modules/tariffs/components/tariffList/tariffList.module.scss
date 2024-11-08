@@ -1,0 +1,17 @@
+.tariffList {
+  &Wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 40px 16px;
+  }
+
+  &List {
+    padding: 20px 0;
+    list-style: none;
+  }
+
+  &Message {
+    padding: 40px 0;
+    text-align: center;
+  }
+}

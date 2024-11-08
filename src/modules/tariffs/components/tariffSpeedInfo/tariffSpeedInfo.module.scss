@@ -1,0 +1,52 @@
+$parentClass: tariffSpeedInfo;
+
+.#{$parentClass} {
+  &Wrapper {
+    width: 40%;
+    padding: 0 10px;
+
+    @media (min-width: 767px) {
+      width: 30%;
+    }
+  }
+
+  &Item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid var(--primary-info-color);
+    font-size: 12px;
+
+    &:last-child {
+      margin-bottom: 0;
+      border-color: var(--secondary-info-color);
+    }
+
+    & > div {
+      @media (min-width: 767px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+      }
+    }
+
+    &:last-child {
+      .#{$parentClass}Icon {
+        @media (min-width: 767px) {
+          border-right-color: var(--secondary-info-color);
+        }
+      }
+    }
+  }
+
+  &Icon {
+    margin-right: 5px;
+
+    @media (min-width: 767px) {
+      border-right: 1px solid var(--primary-info-color);
+    }
+  }
+}
