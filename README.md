@@ -13,3 +13,4 @@
 5. Components are styled using SCSS modules, as per the project requirements.
 6. I used index for component file names, but this is not a strict rule and can be adjusted according to the project's internal guidelines.
 7. I've moved the sorting logic to API to show that this functionality should be done on the backend side.
+8. MUI and related libraries were installed solely for the icons. I understand that it's not ideal to install multiple libraries just for two icons, but I did it to save time searching for the necessary icons online.
